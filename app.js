@@ -3,8 +3,9 @@ const express= require('express')
 const handlabars= require('express-handlebars')
 const bodyParser= require('body-parser')
 const admin= require("./routs/admin")
-
-//const mongoose= require('mongoose')
+//const path =require('path')
+//Banco de dados
+const db = require('./db/data')
 //Configurando Modulos
 const app= express()
 //Body parser
